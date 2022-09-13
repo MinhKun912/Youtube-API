@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/youtube.css">
+</head>
+<body>
+    
+        <header>
+        <div class="logo"><img src="img/youtube.png"></div>
+        <div class="search-box">
+            Type and hit enter <input type="text" name="keyword" id="keyword">
+        </div>
+    </header>
+            <div id="myModel" class="model">
+                <span class="close">&times;</span>
+                <iframe class="model-content" id="video-frame" width="700" height="415" frameborder="0" allowfullscreen></iframe>
+                <div id="caption"></div>
+            </div>
+            <div id="list-video"></div>
+            <footer>
+                <span>Working with youtube API &copy;</span>
+            </footer>
+            <script type="text/javascript" src="js/youtubev3.js"></script>
+
+</html>
